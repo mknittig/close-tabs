@@ -1,0 +1,16 @@
+{
+   "name": "close-tabs",
+   "description": "Easy way to close multiple tabs at once.",
+   "version": "0.1",
+   "icons": {
+      "32": "icons/32x32.png"
+   },
+   "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+   ],
+   "browser_action": {
+      "default_icon": "icons/16x16.png",
+      "default_title": "Close Tabs",
+      "popup" : "popup.html"
+   }
+}
