@@ -22,7 +22,7 @@ function init() {
         if (url != null) {
 	        if (tabHash[url] == null) {
 	            tabHash[url] = new Array();
-	            $('#windows').append('<li><a href="#" class="urls">'+url+'</a></li>');
+	            $('#windows').append('<li><img href="'+tab.favIconUrl+'" /><a href="#" class="urls">'+url+'</a></li>');
 			    
 	            $('.urls').live('click', function() {
 		            closeTabs(tabHash[$(this).html()]);
