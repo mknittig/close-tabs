@@ -17,6 +17,8 @@ function closeTabs(tabs) {
 function init() {
     var tabHash = new Array();
 
+    $('#content').prepend(chrome.i18n.getMessage("helpText") + '<br />');
+
     function addTab(tab) {
         var url = extractTopLevelUrl(tab.url);
         if (url != null) {

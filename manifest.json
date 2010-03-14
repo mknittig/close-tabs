@@ -2,6 +2,7 @@
    "name": "close-tabs",
    "description": "Easy way to close multiple tabs at once.",
    "version": "0.1",
+   "default_locale": "en",
    "icons": {
       "48": "icons/extension-48x48.png"
    },
